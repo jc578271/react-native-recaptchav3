@@ -17,6 +17,7 @@ const patchPostMessageJsCode = `(${String(function () {
     originalPostMessage(message, targetOrigin, transfer)
   }
   patchedPostMessage.toString = () => String(Object.hasOwnProperty).replace('hasOwnProperty', 'postMessage')
+  // @ts-ignore
   window.postMessage = patchedPostMessage
 })})();`
 
