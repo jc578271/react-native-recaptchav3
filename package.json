@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "yarn build -watch",
-    "build": "tsc",
+    "build": "tsc -b",
     "prepare": "npm run build",
     "test": "jest"
   },
