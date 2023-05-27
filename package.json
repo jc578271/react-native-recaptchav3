@@ -2,8 +2,8 @@
   "name": "@haskkor/react-native-recaptchav3",
   "version": "1.2.1",
   "description": "React native component to use the invisible recaptcha v3 from Google",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/ReCaptchaComponent.js",
+  "types": "dist/ReCaptchaComponent.d.ts",
   "files": ["src", "dist"],
   "scripts": {
     "dev": "yarn build -watch",
