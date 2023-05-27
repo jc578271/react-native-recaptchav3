@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "yarn build -watch",
     "build": "tsc -b",
-    "prepare": "npm run build",
+    "prepare": "yarn build",
     "test": "jest"
   },
   "repository": {
