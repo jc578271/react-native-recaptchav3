@@ -4,6 +4,7 @@
   "description": "React native component to use the invisible recaptcha v3 from Google",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["src", "dist"],
   "scripts": {
     "dev": "yarn build -watch",
     "build": "tsc -b",
